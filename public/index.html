@@ -264,9 +264,7 @@
       const expense = transactions.filter(t => t.type === 'expense').reduce((acc, t) => acc + t.amount, 0);
       const netBalance = Math.max(0, income - expense);
       
-      // Total savings includes net balance + manually added extra savings
       const totalSavings = netBalance + extraSavings;
-      
       const percentage = targetGoal > 0 ? Math.min(100, Math.round((totalSavings / targetGoal) * 100)) : 0;
 
       document.getElementById('goal-input').value = targetGoal;
