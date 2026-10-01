@@ -1,0 +1,72 @@
+{
+  "transactions": [
+    {
+      "id": 1790833747892,
+      "type": "income",
+      "category": "Monthly Income / Allowance",
+      "amount": 5000,
+      "note": "income",
+      "date": "2026-10-01"
+    },
+    {
+      "id": 1790833732741,
+      "type": "income",
+      "category": "Monthly Income / Allowance",
+      "amount": 4975,
+      "note": "income",
+      "date": "2026-10-01"
+    },
+    {
+      "id": 1,
+      "type": "income",
+      "category": "Monthly Income / Allowance",
+      "amount": 25000,
+      "note": "Monthly budget",
+      "date": "2026-03-01"
+    },
+    {
+      "id": 2,
+      "type": "expense",
+      "category": "Rent & Utilities",
+      "amount": 8000,
+      "note": "Room Rent",
+      "date": "2026-03-02"
+    },
+    {
+      "id": 3,
+      "type": "expense",
+      "category": "Food & Groceries",
+      "amount": 4500,
+      "note": "Groceries & snacks",
+      "date": "2026-03-05"
+    },
+    {
+      "id": 4,
+      "type": "expense",
+      "category": "Transportation",
+      "amount": 1200,
+      "note": "Bus fare & Petrol",
+      "date": "2026-03-10"
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "title": "Emergency Fund",
+      "target": 30000,
+      "current": 18000
+    },
+    {
+      "id": 2,
+      "title": "Festival / Dashain Fund",
+      "target": 20000,
+      "current": 8500
+    },
+    {
+      "id": 3,
+      "title": "Skill Course / Laptop",
+      "target": 50000,
+      "current": 15000
+    }
+  ]
+}
